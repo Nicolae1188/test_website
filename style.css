@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+#left-Side {
+    display: flex;
+    
+}
+
+#left-Side a {
+    text-decoration: none;
+}
+
+#right-Side {
+    display: flex;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: darkgrey;
+    align-items: center;
+    
+}
+
+#hero {
+    height: 800px;
+    overflow-y: hidden;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#my-stack {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.logo {
+    height: 150px;
+}
+
+#my-stack div {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#my-stack p {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    padding: 20px;
+}
+
+#image-container {
+    width: 100%;
+    display: flex;
+}
+
+.probs {
+    width: 50%;
+    padding: 5px;
+}
+
+.probs img {
+    width: 100%;
+}
+
+#images2 {
+    width: 100%;
+}
+
+#images2 img {
+    width: 100%;
+}
